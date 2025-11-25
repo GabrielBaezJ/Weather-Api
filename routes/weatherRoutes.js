@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const Weather = require("../models/Weather");
+const Weather = require("../models/weather");
 
 // Helper para normalizar temperature a 2 decimales
 function toTwoDecimals(val) {
